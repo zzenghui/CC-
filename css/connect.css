@@ -1,0 +1,30 @@
+ .title-aboutCC {
+     text-align: center;
+     height: 100px;
+     margin-top: 100px;
+     border-bottom: 1px solid #ccc;
+     margin-bottom: 50px;
+ }
+
+ .intro-title {
+     height: 100px;
+     line-height: 100px;
+     margin-top: 30px;
+ }
+
+ .connect {
+     font-size: 20px;
+ }
+
+ .connect ul li {
+     height: 50px;
+     line-height: 50px;
+ }
+
+ .connect ul li span {
+     font-weight: 900;
+ }
+
+ .manner img {
+     width: 100%;
+ }

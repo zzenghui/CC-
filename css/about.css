@@ -1,0 +1,92 @@
+
+ .title-aboutCC {
+     text-align: center;
+     height: 100px;
+     margin-top: 100px;
+     border-bottom: 1px solid #ccc;
+     margin-bottom: 50px;
+ }
+
+ .cate {
+     width: 440px;
+     height: 50px;
+     margin: 0 auto;
+ }
+
+ .cate ul li {
+     width: 100px;
+     height: 100%;
+     float: left;
+     font-size: 18px;
+     line-height: 50px;
+     margin-right: 10px;
+     text-align: center;
+ }
+
+ .cate ul li:nth-child(1) {
+     background-image: url(../images/about-4.gif);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .cate ul li:nth-child(1) a {
+     color: aliceblue;
+ }
+
+ .cate ul li:hover {
+     background-image: url(../images/about-4.gif);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .cate ul li:hover a {
+     color: aliceblue;
+ }
+
+ .intro-title {
+     height: 100px;
+     line-height: 100px;
+     margin-top: 30px;
+ }
+
+ .content .img {
+     float: left;
+     width: 600px;
+     margin-right: 40px;
+     margin-bottom: 30px;
+ }
+
+ .content .img img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .content p {
+     text-indent: 2em;
+     font-size: 18px;
+     line-height: 30px;
+ }
+
+ .his {
+     margin-top: 30px;
+     padding: 0 30px;
+     line-height: 30px;
+     font-size: 18px;
+ }
+
+ .brand {
+     padding: 0 30px;
+     margin-top: 30px;
+     font-size: 18px;
+ }
+
+ .brand h3 {
+     font-weight: 900;
+     margin-bottom: 5px;
+     font-size: 18px;
+ }
+
+ .brand p span {
+     font-weight: 900;
+     line-height: 30px;
+ }
