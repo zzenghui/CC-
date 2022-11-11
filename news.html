@@ -9,120 +9,36 @@
     <link rel="stylesheet" href="./css/news.css">
     <title>Document</title>
     <style>
-        .title-news {
+        .page {
+            height: 30px;
+         
+            margin: 100px auto;
+            line-height: 30px;
             text-align: center;
-            height: 100px;
-            margin-top: 100px;
-            border-bottom: 1px solid #ccc;
-            margin-bottom: 50px;
         }
-
-        .cate {
-            width: 330px;
-            height: 50px;
+        .page ul{
+            width: 60%;
             margin: 0 auto;
         }
-
-        .cate ul li {
-            width: 100px;
-            height: 100%;
+        .page ul li{
             float: left;
-            font-size: 18px;
-            line-height: 50px;
-            margin-right: 10px;
-            text-align: center;
-        }
-
-        .cate ul li:nth-child(1) {
-            background-image: url(../images/about-4.gif);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .cate ul li:nth-child(1) a {
-            color: aliceblue;
-        }
-
-        .cate ul li:hover {
-            background-image: url(../images/about-4.gif);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .cate ul li:hover a {
-            color: aliceblue;
-        }
-        .contentList{
-            display: flex;
-            justify-content: space-between;
-            align-content: space-between;
-            flex-wrap: wrap;
-            height: 1000px;
-            margin-top: 30px;
-           
-        }
-        .contentList .contentItem{
-            width: 47%;
-            height: 200px;
-           
-        }
-        .contentList .contentItem .item-left{
-            float: left;
-            width: 100px;
             height: 100%;
-            font-weight: 900;
-            text-align: center;
-            font-size: 20px;
+            padding: 0 10px;
+            border: 1px solid #ccc;
+            margin-left: 2px;
         }
-        .contentList .contentItem .item-left .left-top{
-            height: 50%;
-            line-height: 100px;
+        .page ul li img{
+            vertical-align: middle;
         }
-        .contentList .contentItem .item-left .left-top:hover{
-            background-color: #002F1B;
-            color: white;
-        }
-        
-        .contentList .contentItem .item-left .left-bottom{
-            line-height: 100px;
-        }
-
-        .contentList .contentItem .item-right{
-            width: 450px;
+        .page ul li input{
+            width: 30px;
             height: 100%;
-            float: right;
-          
-        }
+            outline: none;
 
-        .contentList .contentItem .item-right .title{
-            width: 100%;
-            height: 50px;
-           
-            margin-bottom: 30px;
         }
-        .contentList .contentItem .item-right .title h2{
-            float: left;
-            line-height: 50px;
-        }
-        .contentList .contentItem .item-right .title h2:hover{
-            color: #555;
-        }
-        .contentList .contentItem .item-right .title .jia{
+        .page ul li button{
             width: 50px;
-            height: 50px;
-            float: right;
-            text-align: center;
-            line-height: 50px;
-            color: white;
-            background-color: #646464;
-        }
-        .contentList .contentItem .item-right .title .jia:hover{
-            background-color: #002F1B;
-        }
-        .contentList .contentItem .item-right p{
-            font-size: 17px;
-            margin-bottom: 30px;
-            color: #555;
+            height: 100%;
         }
     </style>
 </head>
@@ -177,7 +93,9 @@
                 </ol>
             </li>
             </li>
-            <li><a href="news.html"><font color="orange">新闻动态</font></a>
+            <li><a href="news.html">
+                    <font color="orange">新闻动态</font>
+                </a>
                 <ol class="ol3">
                     <li> <a href="javascript:;">公司新闻</a> &ensp;|</li>
                     <li> <a href="javascript:;">千级人物</a> &ensp;|</li>
@@ -240,7 +158,7 @@
                 <p>CC | 2003点击</p>
                 <p>2015年6月8日下午，仟吉集团在武汉琴台大剧院举行“我的仟吉”十周 年主题年会暨年度颁奖盛典。来自行业协会、供应商伙…</p>
             </div>
-        
+
         </div>
         <div class="contentItem">
             <div class="item-left">
@@ -255,7 +173,7 @@
                 <p>CC | 2003点击</p>
                 <p>2015年6月8日下午，仟吉集团在武汉琴台大剧院举行“我的仟吉”十周 年主题年会暨年度颁奖盛典。来自行业协会、供应商伙…</p>
             </div>
-        
+
         </div>
         <div class="contentItem">
             <div class="item-left">
@@ -270,7 +188,7 @@
                 <p>CC | 2003点击</p>
                 <p>2015年6月8日下午，仟吉集团在武汉琴台大剧院举行“我的仟吉”十周 年主题年会暨年度颁奖盛典。来自行业协会、供应商伙…</p>
             </div>
-        
+
         </div>
         <div class="contentItem">
             <div class="item-left">
@@ -285,7 +203,7 @@
                 <p>CC | 2003点击</p>
                 <p>2015年6月8日下午，仟吉集团在武汉琴台大剧院举行“我的仟吉”十周 年主题年会暨年度颁奖盛典。来自行业协会、供应商伙…</p>
             </div>
-        
+
         </div>
         <div class="contentItem">
             <div class="item-left">
@@ -300,7 +218,7 @@
                 <p>CC | 2003点击</p>
                 <p>2015年6月8日下午，仟吉集团在武汉琴台大剧院举行“我的仟吉”十周 年主题年会暨年度颁奖盛典。来自行业协会、供应商伙…</p>
             </div>
-        
+
         </div>
         <div class="contentItem">
             <div class="item-left">
@@ -315,7 +233,7 @@
                 <p>CC | 2003点击</p>
                 <p>2015年6月8日下午，仟吉集团在武汉琴台大剧院举行“我的仟吉”十周 年主题年会暨年度颁奖盛典。来自行业协会、供应商伙…</p>
             </div>
-        
+
         </div>
         <div class="contentItem">
             <div class="item-left">
@@ -330,7 +248,7 @@
                 <p>CC | 2003点击</p>
                 <p>2015年6月8日下午，仟吉集团在武汉琴台大剧院举行“我的仟吉”十周 年主题年会暨年度颁奖盛典。来自行业协会、供应商伙…</p>
             </div>
-        
+
         </div>
         <div class="contentItem">
             <div class="item-left">
@@ -345,8 +263,28 @@
                 <p>CC | 2003点击</p>
                 <p>2015年6月8日下午，仟吉集团在武汉琴台大剧院举行“我的仟吉”十周 年主题年会暨年度颁奖盛典。来自行业协会、供应商伙…</p>
             </div>
-        
+
         </div>
+    </div>
+    <!-- 分页器 -->
+    <div class="page w13">
+        <ul>
+            <li> <a href="javascript;:"> <img src="./images/icon.png" alt=""> 上一页</a> </li>
+            <li> <a href="javascript;:"> 1</a> </li>
+            <li> <a href="javascript;:"> 2</a> </li>
+            <li> <a href="javascript;:"> 3</a> </li>
+            <li> <a href="javascript;:"> 4</a> </li>
+            <li> <a href="javascript;:"> 5</a> </li>
+            <li> <a href="javascript;:"> 6</a> </li>
+            <li> <a href="javascript;:"> 7</a> </li>
+            <li>...</li>
+            <li> <a href="javascript;:">  上一页 <img src="./images/icon1.png" alt=""></a> </li>
+            <li>共43页</li>
+            <li>到</li>
+            <li>第 <input type="text"> 页 </li>
+            <li><button>确定</button></li>
+            
+        </ul>
     </div>
 
     <!-- footer区域 -->

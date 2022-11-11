@@ -1,0 +1,125 @@
+ .title-news {
+     text-align: center;
+     height: 100px;
+     margin-top: 100px;
+     border-bottom: 1px solid #ccc;
+     margin-bottom: 50px;
+ }
+
+ .cate {
+     width: 330px;
+     height: 50px;
+     margin: 0 auto;
+ }
+
+ .cate ul li {
+     width: 100px;
+     height: 100%;
+     float: left;
+     font-size: 18px;
+     line-height: 50px;
+     margin-right: 10px;
+     text-align: center;
+ }
+
+ .cate ul li:nth-child(1) {
+     background-image: url(../images/about-4.gif);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .cate ul li:nth-child(1) a {
+     color: aliceblue;
+ }
+
+ .cate ul li:hover {
+     background-image: url(../images/about-4.gif);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .cate ul li:hover a {
+     color: aliceblue;
+ }
+
+ .contentList {
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+     flex-wrap: wrap;
+     height: 1000px;
+     margin-top: 30px;
+
+ }
+
+ .contentList .contentItem {
+     width: 47%;
+     height: 200px;
+
+ }
+
+ .contentList .contentItem .item-left {
+     float: left;
+     width: 100px;
+     height: 100%;
+     font-weight: 900;
+     text-align: center;
+     font-size: 20px;
+ }
+
+ .contentList .contentItem .item-left .left-top {
+     height: 50%;
+     line-height: 100px;
+ }
+
+ .contentList .contentItem .item-left .left-top:hover {
+     background-color: #002F1B;
+     color: white;
+ }
+
+ .contentList .contentItem .item-left .left-bottom {
+     line-height: 100px;
+ }
+
+ .contentList .contentItem .item-right {
+     width: 450px;
+     height: 100%;
+     float: right;
+
+ }
+
+ .contentList .contentItem .item-right .title {
+     width: 100%;
+     height: 50px;
+
+     margin-bottom: 30px;
+ }
+
+ .contentList .contentItem .item-right .title h2 {
+     float: left;
+     line-height: 50px;
+ }
+
+ .contentList .contentItem .item-right .title h2:hover {
+     color: #555;
+ }
+
+ .contentList .contentItem .item-right .title .jia {
+     width: 50px;
+     height: 50px;
+     float: right;
+     text-align: center;
+     line-height: 50px;
+     color: white;
+     background-color: #646464;
+ }
+
+ .contentList .contentItem .item-right .title .jia:hover {
+     background-color: #002F1B;
+ }
+
+ .contentList .contentItem .item-right p {
+     font-size: 17px;
+     margin-bottom: 30px;
+     color: #555;
+ }
